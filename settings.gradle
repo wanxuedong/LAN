@@ -1,2 +1,3 @@
+include ':shortlan'
 include ':app'
 rootProject.name = "LAN"

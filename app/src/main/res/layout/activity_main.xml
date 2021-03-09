@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/white"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".ui.MainActivity">
 
     <EditText
         android:id="@+id/room_name"
@@ -14,6 +14,7 @@
         android:background="@null"
         android:gravity="center"
         android:hint="请输入房间名称"
+        android:text="哈哈"
         android:padding="16dp"
         android:textColor="@color/black"
         android:textSize="16sp"
@@ -37,6 +38,18 @@
         android:gravity="center"
         android:padding="16dp"
         android:text="寻找房间"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/game_room"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="游戏房间"
+        android:visibility="gone"
         android:textColor="@color/black"
         android:textSize="16sp"
         android:textStyle="bold" />
